@@ -4,16 +4,16 @@ const app = new Vue ({
 
     data: {
            title : 'Benvenuto vue',
-           changecolorclass : 'color-red', 
-
+           changecolorclass : 'color-vue', 
+           changecolorclassbtn : 'btn btn-primary',
     },
 
     methods: {
         changecolor: function () {
-            if(this.changecolorclass === 'color-red'){
-                this.changecolorclass = 'color-blue'
+            if(this.changecolorclass === 'color-vue'){
+                this.changecolorclass = 'color-js'
             } else{
-                this.changecolorclass = 'color-red'
+                this.changecolorclass = 'color-vue'
             }
         }
     }

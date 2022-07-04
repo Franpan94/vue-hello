@@ -1,9 +1,9 @@
-.color-red{
-    color: red;
-    background-color: yellow;
+.color-vue{
+    color: rgb(50, 71, 91);
+    background-color: rgb(63, 178, 127);
 }
 
-.color-blue{
-    color: blue;
-    background-color: black;
+.color-js{
+    color: rgb(63, 178, 127);
+    background-color: rgb(50, 71, 91);
 }
